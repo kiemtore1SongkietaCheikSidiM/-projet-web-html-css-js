@@ -97,6 +97,19 @@ article{
 #zone{
   animation:fadeWord 4s infinite;
 }
+.haut{
+  float: right;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #b73b35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
 @keyframes fadeWord {
   0% { opacity: 0;transform :translateY(100%) }
   10% { opacity: 1; transform :translateY(0%) }
@@ -140,4 +153,5 @@ article{
     font-size: 14px;         
   }
 }
+
 
