@@ -3,7 +3,7 @@
 TEEDABAYIRI une entreprise qui  vend des habits et des chaussures en ligne 
 #Fonctionnalite
 - Sections présentes (bannière, à propos, projets, contact).
-- Interactions JavaScript (message de bienvenu, horlog en temps reel, changement de style du message de bienvenu avec le bouton change).
+- Interactions JavaScript (message de bienvenu, horlog en temps reel, changement de style du message de bienvenu avec le bouton change,scroll vers le haut).
 ## Technologie
 - HTML5, CSS3, JavaScript
 ## Lancer le projet 
