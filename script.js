@@ -59,11 +59,24 @@ bouton.addEventListener("click", () => {
   zone.style.color = "red";
   zone.style.background = "yellow";
 });
-  
+// Bouton retour en haut de page qui s'affiche au scroll  
+const retourHaut = document.getElementById("retourHaut");
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 300) {
+    retourHaut.classList.add('show');
+  } else {
+    retourHaut.classList.remove('show');
+  }
+});
+retourHaut.addEventListener("click", (e) => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+);
   
 
   
   
+
 
 
 
