@@ -1,0 +1,143 @@
+/* Css externe via le link */
+/* style du corps en generale */
+body{
+	background-color: #f5f5f5;
+	align-items: center;
+}
+header, footer{
+	background-color: #bcbcbc;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px; 
+}
+footer{
+  padding:10px
+}
+.Menu {
+        
+  display:flex; /* Utilisation de flexbox pour un menu horizontal */       
+               
+  padding: 0;
+}
+
+.Menu ul {
+  list-style: none;          
+  padding: 0;
+  margin: 0;
+  display:flex;
+}
+
+.Menu li {
+  margin-bottom: 10px;       
+}
+
+.Menu a {
+  display: flex;           
+  text-decoration: none;    
+  background-color: #f5f5f5; 
+  color: #333;               
+  padding: 12px 15px;
+  border-radius: 8px;        
+  border: 1px solid #ddd;    
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease; 
+}
+
+/* Effet au survol */
+.Menu a:hover{
+  background-color: #b73b35;   
+  color: #fff;
+  border-color: #b73b35;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+/* Effet visible */
+.Menu a:focus {
+  background-color: #e0e0e0; 
+  color: #000;
+  border-color: #bbb;
+}
+main {
+  background-color:#C6E9ED;                    
+  padding: 20px;
+  text-align: center;
+  line-height: normal;  
+}
+.hero{
+	padding:40px;
+  background-size: cover; 
+  background-position: center; 
+  animation: bgchange 20s infinite;
+	color: #8b1111;
+}
+
+@keyframes bgchange {
+    0% { background-image: url("image/jeans.jpg"); }
+    25% { background-image: url("image/jojeans.jpg"); }
+    50% { background-image: url("image/jeans1.jpg"); }
+    75% { background-image: url("image/pantalon.jpg"); }
+    100% { background-image: url("image/jeans.jpg"); }
+  }
+.A_propos{
+	background-color:#8096ED;
+	padding:40px;
+}
+.space{
+	background-color:#C6E9ED;
+	padding:40px;
+}
+article{
+	display:flex;
+}
+.droit{
+  background-color: #bcbcbc;
+  padding:5px;
+}
+#zone{
+  animation:fadeWord 4s infinite;
+}
+@keyframes fadeWord {
+  0% { opacity: 0;transform :translateY(100%) }
+  10% { opacity: 1; transform :translateY(0%) }
+  40% { opacity: 1; transform :translateY(0%) }
+  50% { opacity: 0; transform :translateY(-100%) }
+  100% { opacity: 0; }
+}
+
+.contact{
+	text-align:center;
+	display:flex;
+	padding:40px;
+	box-shadow:6px 4px 5px 4px black;/*ombre*/
+	border-radius:5px;/*bord arrondi*/
+	
+}
+.nom, .mail, .message{
+	padding: 10px;
+}
+/* Responsive design pour les ecrans de moins de 768px */
+@media (max-width: 768px) {
+  body{
+    padding: 10px;
+
+  }
+  .hero{
+    padding: 5px;           
+    background-size: cover;  
+  }
+  .Menu {
+    width: 100%;             
+    margin: 10px 0;          
+  }
+
+  .Menu li {
+    margin-bottom: 5px;      
+  }
+
+  .Menu a {
+    padding: 10px;           
+    font-size: 14px;         
+  }
+}
+
