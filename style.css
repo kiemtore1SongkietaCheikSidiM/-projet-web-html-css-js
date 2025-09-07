@@ -73,11 +73,11 @@ main {
 }
 
 @keyframes bgchange {
-    0% { background-image: url("image/jeans.jpg"); }
-    25% { background-image: url("image/jojeans.jpg"); }
-    50% { background-image: url("image/jeans1.jpg"); }
-    75% { background-image: url("image/pantalon.jpg"); }
-    100% { background-image: url("image/jeans.jpg"); }
+    0% { background-image: url("image/pantalons.jpg"); }
+    25% { background-image: url("image/habit.jpg"); }
+    50% { background-image: url("image/nike.jpg"); }
+    75% { background-image: url("image/beauté.jpg"); }
+    
   }
 .A_propos{
 	background-color:#8096ED;
@@ -153,5 +153,6 @@ article{
     font-size: 14px;         
   }
 }
+
 
 
