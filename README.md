@@ -9,6 +9,6 @@ TEEDABAYIRI une entreprise qui  vend des habits et des chaussures en ligne
 ## Lancer le projet 
 Ouvrez index.html dans votre navigateur.
 ## Démo (optionnel) 
-Lien GitHub Pages : https://github.com/skiemto/-projet-web-html-css-js/new/main
+https://github.com/kiemtore1SongkietaCheikSidiM/-projet-web-html-css-js
 ## Auteur 
 KIEMTORE SONGKIETA CHEIK SIDI MOHAMED L3 MODELISATION-SIMULATION ET CALCUL SCIENTIFIQUE
